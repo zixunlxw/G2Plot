@@ -2,7 +2,7 @@ import { Geometry } from '@antv/g2';
 import { get } from '@antv/util';
 import { Datum } from '../../types';
 import { Params } from '../../core/adaptor';
-import { interaction, animation, theme, state, scale, annotation } from '../../adaptor/common';
+import { interaction, animation, theme, state, scale, annotation, pattern } from '../../adaptor/common';
 import { interval } from '../../adaptor/geometries';
 import { getLocale } from '../../core/locale';
 import { findGeometry, flow, transformLabel, deepAssign } from '../../utils';
@@ -234,6 +234,7 @@ export function adaptor(params: Params<WaterfallOptions>) {
   return flow(
     defaultOptions,
     theme,
+    pattern('waterfallStyle'),
     geometry,
     meta,
     axis,

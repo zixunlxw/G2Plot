@@ -31,7 +31,7 @@ function getRectPath(points: Point[]) {
  * @param cfg 图形绘制数据
  */
 function getFillAttrs(cfg: Types.ShapeInfo) {
-  return deepAssign({}, cfg.defaultStyle, cfg.style, { fill: cfg.color });
+  return deepAssign({}, cfg.defaultStyle, cfg.style, { fill: cfg.color }, cfg.style);
 }
 
 registerShape('interval', 'waterfall', {
