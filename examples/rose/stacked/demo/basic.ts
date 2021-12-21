@@ -2,7 +2,7 @@ import { Rose } from '@antv/g2plot';
 
 const data = [
   {
-    type: '分类一',
+    type: 'members',
     value: 27,
     user: '用户一',
   },
