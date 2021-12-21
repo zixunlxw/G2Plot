@@ -2,64 +2,64 @@ import { Rose } from '@antv/g2plot';
 
 const data = [
   {
-    type: '分类一',
-    value: 27,
-    user: '用户一',
+    type: 'members:50',
+    value: 50,
+    user: 'members',
   },
   {
-    type: '分类二',
+    type: 'members:45',
+    value: 45,
+    user: 'members',
+  },
+  {
+    type: 'members:65',
+    value: 65,
+    user: 'members',
+  },
+  {
+    type: 'members:25',
     value: 25,
-    user: '用户一',
+    user: 'members',
   },
   {
-    type: '分类三',
-    value: 18,
-    user: '用户一',
+    type: 'members:33',
+    value: 33,
+    user: 'members',
   },
   {
-    type: '分类四',
-    value: 15,
-    user: '用户一',
-  },
-  {
-    type: '分类五',
-    value: 10,
-    user: '用户一',
-  },
-  {
-    type: '其它',
-    value: 5,
-    user: '用户一',
-  },
-  {
-    type: '分类一',
-    value: 7,
-    user: '用户二',
-  },
-  {
-    type: '分类二',
-    value: 5,
-    user: '用户二',
-  },
-  {
-    type: '分类三',
-    value: 38,
-    user: '用户二',
-  },
-  {
-    type: '分类四',
-    value: 5,
-    user: '用户二',
-  },
-  {
-    type: '分类五',
+    type: 'members:20',
     value: 20,
-    user: '用户二',
+    user: 'members',
   },
   {
-    type: '其它',
+    type: 'members:50',
+    value: 7,
+    user: 'owners',
+  },
+  {
+    type: 'members:45',
+    value: 5,
+    user: 'owners',
+  },
+  {
+    type: 'members:65',
+    value: 38,
+    user: 'owners',
+  },
+  {
+    type: 'members:25',
+    value: 5,
+    user: 'owners',
+  },
+  {
+    type: 'members:33',
+    value: 20,
+    user: 'owners',
+  },
+  {
+    type: 'members:20',
     value: 15,
-    user: '用户二',
+    user: 'owners',
   },
 ];
 
